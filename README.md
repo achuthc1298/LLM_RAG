@@ -57,7 +57,7 @@ Follow the instructions in the notebook to learn how to initialize the system, p
 
 2. Activate your environemt:
    ```bash
-   conda activate #######
+   conda activate myenv
    ```
 3. Run Streamlit:
    ```bash
