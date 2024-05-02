@@ -99,7 +99,7 @@ Settings.llm = llm
 Settings.embed_model = embed_model
 
 # create vector store and index
-storage_context = StorageContext.from_defaults(persist_dir="")
+storage_context = StorageContext.from_defaults(persist_dir="######")
 vector_index = load_index_from_storage(storage_context)
 
 # Remove the loading message
