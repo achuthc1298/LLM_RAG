@@ -26,7 +26,7 @@ The notebook provides an example of setting up a RAG system which utilizes Llama
    ```
 
 2. Create a conda environment:
-   '''bash
+   '''
    conda create -n myenv python=3.x
    '''
 
@@ -56,7 +56,7 @@ Follow the instructions in the notebook to learn how to initialize the system, p
    ```
 
 2. Create a conda environment:
-   '''bash
+   '''
    conda create -n myenv python=3.9
    '''
 
