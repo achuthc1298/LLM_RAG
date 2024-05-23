@@ -50,16 +50,21 @@ Follow the instructions in the notebook to learn how to initialize the system, p
 
 ## Running the .py file
 
-1. Create a conda environment:
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Create a conda environment:
    '''bash
    conda create -n myenv python=3.9
    '''
 
-2. Activate your environemt:
+3. Activate your environemt:
    ```bash
    conda activate myenv
    ```
-3. Run Streamlit:
+4. Run Streamlit:
    ```bash
    streamlit run llama_app.py
    ```
